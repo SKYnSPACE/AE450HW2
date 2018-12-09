@@ -207,25 +207,25 @@ set(gcf, 'Position',[300 50 800 800])
 
 subplot(2,2,1)
 plot(uOut.time, uOut.signals(1).values, uOut.time, uOut.signals(2).values)
-title('u Response'); xlabel('Amplitude'); ylabel('Time[sec]');
+title('u Response'); xlabel('Time[sec]'); ylabel('Amplitude'); 
 legend('Open-loop response (no control)','Closed-loop response (feedback)');
 grid on;
 
 subplot(2,2,2)
 plot(wOut.time, wOut.signals(1).values, wOut.time, wOut.signals(2).values)
-title('w Response'); xlabel('Amplitude'); ylabel('Time[sec]');
+title('w Response'); xlabel('Time[sec]'); ylabel('Amplitude'); 
 legend('Open-loop response (no control)','Closed-loop response (feedback)');
 grid on;
 
 subplot(2,2,3)
 plot(qOut.time, qOut.signals(1).values, qOut.time, qOut.signals(2).values)
-title('q Response'); xlabel('Amplitude'); ylabel('Time[sec]');
+title('q Response'); xlabel('Time[sec]'); ylabel('Amplitude'); 
 legend('Open-loop response (no control)','Closed-loop response (feedback)');
 grid on;
 
 subplot(2,2,4)
 plot(thetaOut.time, thetaOut.signals(1).values, thetaOut.time, thetaOut.signals(2).values)
-title('theta Response'); xlabel('Amplitude'); ylabel('Time[sec]');
+title('theta Response'); xlabel('Time[sec]'); ylabel('Amplitude'); 
 legend('Open-loop response (no control)','Closed-loop response (feedback)');
 grid on;
 

@@ -43,7 +43,9 @@
   &nbsp; This is a step-by-step assignment. You cannot complete the next part correctly while leaving the previous parts incorrect. Therefore, you'll get full credits for the completed parts, but there will be no points at all for the missing or incomplete parts.
 
 - **[VERSION CONTROL]** 
-  [Ver. 1.0 @30/NOV/2018] Published the first edition. 
+  [Ver. 1.0 @30/NOV/2018] Published the first edition.
+
+  [Ver. 1.1 @9/DEC/2018] Correction made on the Figure 6.2. (The xlabel, and ylabel changed.)
 
 <div style="page-break-after: always;"></div>
 
@@ -865,11 +867,13 @@ Continuous-time transfer function.
 &nbsp; From the initial conditions (perturbations from the equilibrium point) of $[u_0, w_0, q_0, \theta_0] = [1, 1, 1, 1]$, open-loop response shows stable but slowly converging motion, while the designed contoller settles down the irritating responses quickly as desired. 
 
 <p align="center">
-<img class="pull-left" src="https://lh3.googleusercontent.com/Rl0DN1rKCcmdlxv4HgiAccm02guD81G4nVhdViPSbDU4YgJwKkMN59uo8UX7fw8vRK7nuCMfUOXtrs28JpCmldmh5txvai7SRO4=s800"></img> <br> <em><b>Figure 6.2. Time responses to initial conditions</b></em></p>
+<img class="pull-left" src="https://lh3.googleusercontent.com/sRZNi3-sJWIgyxjIqDRDmR7VMyurIM62V_0a-c1yLtEGy_n5O3S5uN4uOUZEu2rIVsBvIi-r3eKOZCHZzu5D4AWawI9LkfkD1e0=s800"></img> <br> <em><b>Figure 6.2. Time responses to initial conditions</b></em></p>
 
 
 
 ### 6.2. MATLAB Script (followed by Section 5.4)
+
+> Download the HW2Part6.slx file first from the website: https://github.com/SKYnSPACE/AE450HW2
 
 ```matlab
 %% Part 6. CLOSED-LOOP TIME RESPONSES
@@ -955,6 +959,8 @@ Part 6. CLOSED-LOOP TIME RESPONSES
 
 
 ### 7.2 MATLAB Scripts (followed by Section 6.2)
+
+> Download the HW2Part7.mat file first from the website: https://github.com/SKYnSPACE/AE450HW2
 
 ```matlab
 %% Part 7. PHASE-LEAD COMPENSATOR
